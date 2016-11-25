@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="@integer/column_count">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/ardi_image_view"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_ardi"/>
+
+            <TextView
+                android:id="@+id/ardi_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ardi_image_view"
+                android:layout_centerHorizontal="true"
+                android:text="Ardi"/>
+
+            <TextView
+                android:id="@+id/no_ardi_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ardi_text_view"
+                android:layout_centerHorizontal="true"
+                android:text="081213123123"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/no_ardi_text_view"
+                android:text="sms"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/no_ardi_text_view"
+                android:text="call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/dave_image_view"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_dave"/>
+
+            <TextView
+                android:id="@+id/dave_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dave_image_view"
+                android:layout_centerHorizontal="true"
+                android:text="Dave"/>
+
+            <TextView
+                android:id="@+id/no_dave_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dave_text_view"
+                android:layout_centerHorizontal="true"
+                android:text="081213123123"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/no_dave_text_view"
+                android:text="sms"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/no_dave_text_view"
+                android:text="call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/firman_image_view"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_firman"/>
+
+            <TextView
+                android:id="@+id/firman_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firman_image_view"
+                android:layout_centerHorizontal="true"
+                android:text="Firman"/>
+
+            <TextView
+                android:id="@+id/no_firman_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firman_text_view"
+                android:layout_centerHorizontal="true"
+                android:text="081213123123"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/no_firman_text_view"
+                android:text="sms"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/no_firman_text_view"
+                android:text="call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto4"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama4"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor4"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor4"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto5"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama5"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor5"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor5"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto6"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto6"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama6"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor6"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor6"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto7"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama7"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor7"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor7"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto8"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto8"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama8"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor8"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor8"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:id="@+id/foto9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/nama9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto9"
+                android:text="Asep Gaul"/>
+
+            <TextView
+                android:id="@+id/nomor9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nama9"
+                android:text="089657534464"/>
+
+            <Button
+                android:id="@+id/sms9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/nomor9"
+                android:text="SMS"/>
+
+            <Button
+                android:id="@+id/call9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/nomor9"
+                android:text="Call"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.GridLayout>
+
+</ScrollView>
